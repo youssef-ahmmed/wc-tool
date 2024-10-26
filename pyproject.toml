@@ -1,0 +1,10 @@
+# pyproject.toml
+
+[project]
+name = "ccwc"
+version = "0.1.0"
+description = "Command-line tool for counting words, lines, bytes, and characters"
+dependencies = []
+
+[project.scripts]
+ccwc = "main.ccwc:main"
